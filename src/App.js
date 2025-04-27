@@ -666,6 +666,7 @@ function App() {
           to: toAddress
         },
         direction: 'sent', // Явно указываем направление
+        partnerAddress: toAddress, // Добавляем partnerAddres
         status: 'pending',
         timestamp: Date.now()
       };
